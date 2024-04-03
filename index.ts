@@ -26,6 +26,7 @@ while (tries > 0) {
   }
   
   else {
+    tries = 0;
     let userD = await inquirer.prompt([
       {
       name: "option",
