@@ -21,6 +21,7 @@ while (tries > 0) {
         console.log(`You have entered incorrect Pin. \n${tries - 1} try left.`);
     }
     else {
+        tries = 0;
         let userD = await inquirer.prompt([
             {
                 name: "option",
